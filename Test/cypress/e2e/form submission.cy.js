@@ -42,9 +42,7 @@ describe('Form Submission', function() {
       Sub_Page.submit()
   
       //check if on screen are the right credentials
-      /*cy.get('@name')
-        .get('@email')
-        .get('@message')*/
+      cy.contains('Saved Data')
       
     })
   })

@@ -18,7 +18,7 @@ export class FormSubmissionElement{
     }
 
     submit(){
-        cy.get(this.submit_click)
+        cy.get(this.submit_click).click()
     }
 
 
